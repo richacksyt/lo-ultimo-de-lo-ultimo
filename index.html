@@ -21,7 +21,6 @@
       border: 1px dashed rgba(255,255,255,0.05);
       border-radius: 1.5rem;
     }
-    /* Animación suave para evitar el flash de carga */
     #root {
       animation: fadeIn 0.5s ease-in-out;
     }
@@ -29,7 +28,6 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
-    /* Custom scrollbar para estética elite */
     .custom-scrollbar::-webkit-scrollbar {
       width: 4px;
     }
@@ -61,7 +59,6 @@
 </head>
 <body>
   <div id="root"></div>
-  <!-- Vite se encarga de inyectar los scripts necesarios basándose en el punto de entrada index.tsx -->
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
