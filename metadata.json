@@ -1,0 +1,8 @@
+{
+  "name": "Richacks Elite - Creative Hub",
+  "description": "Plataforma oficial de Richacksyt. Herramientas de producción, recursos premium y comunidad de creadores.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
